@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/displays.css">
+    <link rel="stylesheet" href="../styles/userDashboard.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/modals.css">
+    <script defer type="module" src="../scripts/userDashboard.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>KE - User</title>
+</head>
+<body>
+    <div class="modal-wrapper">
+        <div class="modal_small">
+            <img src="../assets/x_close.svg" alt="close pop-up" id="close">
+            <div class="receiving_space">
+            </div>
+        </div>
+    </div>
+    <header class="user_headder">
+        <div class="flex-space_btw blank_border">
+            <img src="../assets/logo.svg" alt="company logo" class="logo">
+            <button class="small_white btn_logOut">Logout</button> 
+        </div>
+    </header>
+    <main class="blank_border">
+        <div class="user_info-div">
+            <div>
+                <h2 id="user-name"></h2>
+                <span id="user-email"></span>
+            </div>
+            <div class="lower_info">
+                <span id="pro-lvl" class="lower_span"></span>
+                <span id="kind-of-work" class="lower_span"></span>
+            </div>
+
+            <img src="../assets/edit_black_pen.svg" alt="edit pen" class="pen">
+        </div>
+        <div class="coworkers_company-info_div">
+            <span class="title_4">Você ainda não foi contratado</span>
+        </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+</body>
+</html>

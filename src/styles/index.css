@@ -1,0 +1,175 @@
+.home_headder{
+    min-height: fit-content;
+    padding: 25px 0;
+    border-bottom: 1px  solid  var(--color_black_10);
+    margin-bottom: 40px;
+}
+
+.logo{
+    width: 120.35px;
+    height: 14.9px;
+}
+
+.more{
+    width: 23.25px;
+    height: 15.5px;
+}
+
+.home_btns_wide{
+    display: none;
+}
+
+.home_ilustration{
+    display: none;
+}
+
+.home_main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.select_sector_div{
+    display: flex;
+    background-color: var(--color_purple);
+    width: 100%;
+    height: 52.18px;
+    font-size: var(--font_size_18);
+    font-weight: var(--weight_regular);
+    color: var(--color_white);
+}
+
+.arrow{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+} 
+
+span{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding:15px 0;
+}
+
+.home_info_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 332px;
+}
+
+.home_div_jobs{
+    width: 100%;
+    height: 279.82px;
+    background-color: var(--color_grey);
+    box-shadow: 3px 13px 24px 0px rgba(189,179,189,1);
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding: 27px 20px;
+}
+
+.blank_border{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.home_btns_toggle{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    background-color: var(--color_white);
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+}
+
+.company_card{
+    background-color: var(--color_white);
+    height: 211px;
+    min-width: 241px;
+    border-bottom: 1px solid var(--color_purple);
+    padding: 13px 15px;
+}
+
+.company_sector{
+    color: var(--color_purple);
+    border: 1px solid var(--color_purple);
+    background-color: var(--color_white);
+    border-radius: 50px;
+    width: 120px;
+    height: 70px;
+    font-size: var(--font_size_16);
+    line-height: auto;
+    font-weight: var(--weight_regular);
+}
+
+.company_hrs{
+    margin-top: 75px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+@media(min-width: 1024px){
+    .more{
+        display: none;
+    }
+
+    .logo{
+        width: 172.36px;
+        height: 21.34px;
+        align-self: center;
+    }
+
+    .blank_border{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .home_btns_wide{
+        display: flex;
+        gap: 10px;
+    }
+
+    .select_sector_div{
+        font-size: var(--font_size_20);
+    }
+
+    .home_info_div{
+        width: 47.41%;
+        height: 743px;
+    }
+
+    .home_div_jobs{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        /* overflow-x: hidden; */
+    }
+
+    .home_ilustration{
+        width: 47.41%;
+        height: 743px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .home_btns_toggle{
+        display: none;
+    }
+
+    .company_card{
+        max-height: 135px;
+    }
+
+    .company_hrs{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        
+    }
+}

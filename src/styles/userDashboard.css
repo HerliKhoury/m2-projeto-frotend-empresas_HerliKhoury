@@ -1,0 +1,57 @@
+.user_headder{
+    min-height: fit-content;
+    padding: 25px 10px;
+    border-bottom: 1px  solid  var(--color_black_10);
+}
+
+.blank_border{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.user_info-div{
+    display: flex;
+    width: 100%;
+    height: 121px;
+    border: 1px solid var(--color_black_20);
+    margin-top: 26px;
+    margin-bottom: 44px;
+    padding: 25px 15px;
+}
+
+.coworkers_company-info_div{
+    display: flex;
+    width: 100%;
+    height: 467px;
+    border: 1px solid var(--color_grey1);
+    background-color: var(--color_grey);
+}
+
+span{
+    height: fit-content;
+    margin: auto;
+}
+
+.pen{
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    margin-left: 150px;
+}
+
+.lower_info{
+    width: 100%;
+    display: flex;
+}
+
+.lower_span{
+    display: block;
+}
+
+.confirm_btn{
+    margin-top: 5px;
+}
+
+.modal_title{
+    margin-bottom: 20px;
+}

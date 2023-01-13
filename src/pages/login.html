@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/displays.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script defer type="module" src="../scripts/login.js"></script>
+    <title>KE - Login</title>
+</head>
+<body>
+    <header class="login_headder">
+        <div class="flex-space_btw blank_border">
+            <img src="../assets/logo.svg" alt="company logo" class="logo">
+            <img src="../assets/more_dashes.svg" alt="more options" class="more">
+            <div class="login_btns_wide">
+                <button class="small_white homeBtn">Home</button>
+                <button class="small_purple regsBtn">Cadastro</button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="login_card">
+            <form class="flex_column">
+                <h1 class="title_1">Login</h1>
+                <span class="text_1 subtitle_login">Preencha os campos para realizar login</span>
+                <input placeholder="Seu e-mail" class="large_simple" id="inputEmail">
+                <input placeholder="Sua senha" class="large_simple" id="inputPassword" type="password">
+                <button class="title_2 large_purple" id="loginBtn">Login</button>
+                <span class="text_1 or">ou</span>
+                <button class="title_3 large_white regsBtn" type="button">Cadastre-se</button>
+            </form>
+        </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+</body>
+</html>

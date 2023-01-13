@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/displays.css">
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <script defer type="module" src="../scripts/register.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>KE - Register</title>
+</head>
+<body>
+    <header class="register_headder">
+        <div class="flex-space_btw blank_border">
+            <img src="../assets/logo.svg" alt="company logo" class="logo">
+            <img src="../assets/more_dashes.svg" alt="more options" class="more">
+            <div class="register_btns_wide">
+                <button class="small_white home_btn">Home</button>
+                <button class="small_purple login_btn">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="register_card">
+            <form class="flex_column">
+                <h1 class="title_1 register_title">Cadastre-se</h1>
+                <input placeholder="Seu nome" class="large_simple" id="input_name">
+                <input placeholder="Seu e-mail" class="large_simple" id="input_email">
+                <input placeholder="Sua senha" class="large_simple" id="input_password">
+                <select name="professional_level" id="select_level">
+                    <option value="null" hidden >Nível profissional</option>
+                    <option value="estágio">Estágio</option>
+                    <option value="júnior">Júnior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="sênior">Sênior</option>
+                </select>
+                <button class="title_2 large_purple register_btn" type="button">Cadastre-se</button>
+                <button class="title_3 large_white return_btn" type="button">Retornar</button>
+            </form>
+        </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+main{
+    background-image: url(../assets/backgroud_picture.svg);
+    height: 100vh;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.register_card{
+    width: 358px;
+    height: 519px;
+    background-color:  var(--color_white_95) ;
+    padding: 40px 20px;
+}
+
+
+
+.register_headder{
+    min-height: fit-content;
+    padding: 25px 10px;
+    border-bottom: 1px  solid  var(--color_black_10);
+}
+
+.logo{
+    width: 120.35px;
+    height: 14.9px;
+}
+
+.more{
+    width: 23.25px;
+    height: 15.5px;
+}
+
+.or{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.subtitle_register{
+    margin: 15px 0 20px 0;
+}
+
+.register_btns_wide{
+    display: none;
+}
+
+select{
+    width: 100%;
+    height: 52px;
+    border: 1px solid var(--color_black_20);
+    padding: 0 15px 0 15px; 
+    background-color: var(--color_white);
+    color: var(--color_black_50);
+    margin-bottom: 15px;
+    font-size: var(--font_size_18);
+}
+
+.register_title{
+    margin-bottom: 20px;
+}
+
+.register_btn{
+    margin-bottom: 15px;
+}
+
+
+
+@media(min-width: 1024px){
+    .more{
+        display: none;
+    }
+
+    .logo{
+        width: 172.36px;
+        height: 21.34px;
+        align-self: center;
+    }
+
+    .register_btns_wide{
+        display: flex;
+        gap: 10px;
+    }
+
+    .register_card{
+        width: 506px;
+        height: 519px;
+        padding: 40px 35px;
+    }
+
+    main{
+        padding-top: 100px;
+    }
+    
+    .blank_border{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
